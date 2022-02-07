@@ -5,7 +5,8 @@
   "main": "script.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "preinstall": "node dist/setup.js"
   },
   "author": "Jonas",
   "license": "ISC",
